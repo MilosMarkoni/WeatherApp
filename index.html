@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Rainy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="ui-main-wrapper" style="display: none">
+      <div class="ui-location-panel">
+        <canvas class="icon" width="128" height="128"></canvas>
+        <hr class="ui-separator"></hr>
+        <h1 class="ui-location-timezone">Timezone</h1>
+      </div>
+
+      <div class="ui-temperature-panel">
+        <span class="ui-convert-value">Convert to Celsius</span>
+        <div class="ui-degree-section">
+          <h2 class="ui-temperature-degree">34</h2>
+          °<span>F</span>
+        </div>
+
+        <div class="ui-degree-description">
+          It's cold outside!
+        </div>
+      </div>
+      <h1></h1>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="skycons.js"></script>
+  </body>
+</html>

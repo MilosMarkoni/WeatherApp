@@ -1,0 +1,64 @@
+body {
+    color: white;
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #136a8a; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #267871, #136a8a); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #267871, #136a8a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+body * {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.ui-main-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.ui-degree-section *, .ui-location-panel * {
+    display: inline-block;
+}
+
+.ui-degree-section {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.ui-temperature-panel {
+    margin-top: 30px;
+}
+
+.ui-location-panel * {
+    vertical-align: middle;
+}
+
+.ui-location-panel h1 {
+    margin-top: 20px;
+}
+
+.ui-convert-value {
+    cursor: pointer;
+    transform: 0.5s ease-in;
+    border-bottom: 1px solid transparent;
+}
+
+.ui-convert-value:hover {
+    border-bottom: 1px solid white;
+}
+
+hr.ui-separator {
+    display: block;
+    border-color: white;
+}
+
+canvas {
+    margin-bottom: 20px;
+}
