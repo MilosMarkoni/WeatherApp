@@ -39,12 +39,12 @@ window.addEventListener("load", () => {
               tempDegreeStandard.textContent = "C";
               tempDegree.textContent = ((temperature - 32) / 1.8).toFixed(2);
               document.querySelector(".ui-convert-value").textContent =
-                "Convert to Farenheit!";
+                "Convert to Fahrenheit!";
             } else {
               tempDegreeStandard.textContent = "F";
               tempDegree.textContent = temperature;
               document.querySelector(".ui-convert-value").textContent =
-                "Convert to Celcius!";
+                "Convert to Celsius!";
             }
           });
         });
